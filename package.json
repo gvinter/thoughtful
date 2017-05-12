@@ -1,0 +1,39 @@
+{
+  "name": "thoughtfully",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prestart": "npm run lint",
+    "start": "webpack-dev-server --progress --inline --hot",
+    "lint": "eslint ./src/**/*.{js, jsx} --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.5.9",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-toolbox": "^2.0.0-beta.8",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.19.0",
+    "react-hot-loader": "^1.3.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
